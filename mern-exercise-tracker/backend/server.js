@@ -5,8 +5,6 @@ const exercisesRouter = require('./routes/exercises')
 const usersRouter = require('./routes/users')
 const uri = require('./config/db.js')
 
-require('dotenv').config()
-
 const app = express()
 const port = process.env.PORT || 5000
 
