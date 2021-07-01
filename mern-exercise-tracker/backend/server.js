@@ -6,7 +6,7 @@ const usersRouter = require('./routes/users')
 const uri = require('./config/db.js')
 
 const app = express()
-const port = process.env.PORT || 5000
+const port = 5000
 
 // middleware
 app.use(cors())
